@@ -1,0 +1,126 @@
+/*Fundo da página*/
+body{
+    background-color: #141414;
+}
+/*cabeçalho*/
+header #barraPesquisa{
+    background-color: darkgray;
+    color: white;
+}
+header{
+    background-color: rgb(105, 105, 105);
+    width: 100%;
+    height: 110px;
+    font-size: 1.5em;
+}
+header button{
+    background-color: #0c6bfc;
+    color: white;
+    margin: 8px 0;
+    border-radius: 7px;
+    border: solid #0c6bfc;
+    cursor: pointer;
+    width: 80px;
+}
+header .nav-link{
+    color: white;
+}
+/*Conteudo principal*/
+
+
+/*banner*/
+#section-banners img{
+    padding: 20px;
+    width: 1024px;
+    height: 600px;
+}
+.containerBanner{
+    display: flex;
+    justify-content: center;
+}
+/*Produtos vendidos*/
+#section-vendidos h2{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+}
+#section-vendidos img{
+    height: 170px;
+    width: 200px;
+    border-radius: 5px;
+}
+#section-vendidos .card{
+    margin: 5px;
+    width: 400px;
+    height: 220px;
+    border-radius: 10px;
+    color: white;
+    background-color: #2E2E2E;
+}
+#section-vendidos .preço{
+    font-weight: bold;
+    color: red;
+}
+/*Novidades*/
+#section-novidades h5{
+    color: red;
+    font-weight: bold;
+}
+#section-novidades h2{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+}
+#section-novidades img{
+    margin-left: 350px;
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+}
+#section-novidades .card{
+    margin: 5px;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    color: white;
+    background-color: #2E2E2E;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+/*Rodapé*/
+footer p{
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+/*Botão Voltar topo*/
+#voltar-topo{
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+/* página de login  */
+#section-login,#form-cadastrar{
+    margin-top: 50px;
+    color: white;
+}
+#section-login input{
+    width: 100%;
+}
+main h1,.informe{
+    text-align: center;
+}
+/* Formulário de cadastro*/
+#botao-cadastrar{
+    text-align: center;
+}
+#section-cadastro button{
+    padding: 5px;
+}
+#form-cadastrar{
+    padding: 50px;
+    display: none;
+}
